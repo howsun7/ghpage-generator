@@ -36,13 +36,3 @@ class Generator:
                 raise e
         
     
-
-
-
-    # def read_file(self):
-    #     filepath = 
-    #     with
-
-
-
-
