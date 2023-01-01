@@ -10,7 +10,7 @@ Generate static site with a template engine (jinja). The output can be changed b
 - change the source files (config.yml and template)
 
 ## Generate the html
-Install dependencies: `pipenv install`
-Generate html: `python generator`
+- Install dependencies: `pipenv install`
+- Generate html: `python generator`
 
 
