@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>{{ sitename }}</title>
+    <title>example</title>
   </head>
   <body class="bg-light">
     <div class="container bg-white" style='min-height: 100vh; border-left: thick double #32a1ce; border-right: thick double #32a1ce;'>
@@ -16,21 +16,35 @@
     <h1>Static site is magical indeed</h1>
     <button id="agreeBtn" class='btn btn-primary'>Agree</button>
 
-    {% for project in projects %}
+    
     <div class="row">
       <div class="col">
-        <div>{{ project.name }}</div>
+        <div>cool</div>
         <div>
-          <h5 class="card-title">{{ project.link }}</h5>
-          <p class="card-text">{{ project.description }}</p>
-          {% for skill in project.skills %}
-          <span class="badge rounded-pill bg-info text-dark">{{ skill }}</span>
-          {% endfor %}
+          <h5 class="card-title"></h5>
+          <p class="card-text">it's a great project</p>
+          
+          <span class="badge rounded-pill bg-info text-dark">python</span>
+          
+          <span class="badge rounded-pill bg-info text-dark">javascript</span>
+          
         </div>
       </div>
     </div>
    
-    {% endfor %}
+    
+    <div class="row">
+      <div class="col">
+        <div>something else</div>
+        <div>
+          <h5 class="card-title"></h5>
+          <p class="card-text">not a great one</p>
+          
+        </div>
+      </div>
+    </div>
+   
+    
 
     </div>
     <!-- Optional JavaScript; choose one of the two! -->

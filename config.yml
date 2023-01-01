@@ -1,3 +1,5 @@
+sitename: 'example'
+
 projects:
   - project:
     name: 'cool'
