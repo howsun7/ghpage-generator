@@ -1,0 +1,13 @@
+projects:
+  - project:
+    name: 'cool'
+    description: "it's a great project"
+    repo: 'http:goodrepo.com'
+    skills: ['python', 'javascript']
+
+  - project:
+    name: 'something else'
+    description: 'not a great one'
+
+template_filename: 'example.html'
+
